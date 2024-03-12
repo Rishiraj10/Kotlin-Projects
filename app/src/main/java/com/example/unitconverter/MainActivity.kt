@@ -62,7 +62,7 @@ fun UnitConverter() {
     var outputUnit by remember { mutableStateOf("Meters") }
     var iExpanded by remember { mutableStateOf(false) }
     var oExpanded by remember { mutableStateOf(false) }
-    val iConversionFactor = remember { mutableStateOf(2.0) }
+    val iConversionFactor = remember { mutableStateOf(1.0) }
     val oConversionFactor = remember { mutableStateOf(1.0) }
 
     val customTextStyle = TextStyle (
